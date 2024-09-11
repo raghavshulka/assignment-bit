@@ -1,11 +1,10 @@
 "use client";
 import React, { useState, useMemo } from "react";
 import Image from "next/image";
-import { TrendingUp } from "lucide-react";
 import { CartesianGrid, Line, LineChart, XAxis } from "recharts";
 
 import { Pie, PieChart, Label } from "recharts";
-import { CardContent, CardFooter } from "@/components/ui/card";
+import { CardContent } from "@/components/ui/card";
 import {
   ChartConfig,
   ChartContainer,
